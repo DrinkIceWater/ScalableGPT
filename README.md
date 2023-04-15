@@ -11,3 +11,5 @@ One of the most impressive features of ChatGPT is its ability to function as a z
 Despite some concerns about robustness, it is heartening to see such a powerful tool being applied across numerous fields, enabling less technical researchers to tackle complex tasks. In this project, we have developed a framework to assist social scientists and other practitioners in scaling up their work with ChatGPT.
 
 ### Motivation
+
+I encountered a task to identify whether a social media user is an individual user, self-media or an organization according to the user profile. Although this task can be tackled by fine-tuning a pre-trained LM such as BERT, I did not do that but instead asked ChatGPT to help me. Given the large number of users, it was impossible to input the profiles by hands. Therefore, I used OpenAI's API to do this job. Considering the budget and the limit of request per hour, I needed to find a more efficient way to do it. The frame work is the fruit.
